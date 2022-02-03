@@ -1,0 +1,246 @@
+*{
+
+    box-sizing: border-box; 
+    font-family: monospace;
+}
+
+h1{
+    font-family: monospace;
+}
+body{
+   background-image: url('pictures/font.png');
+
+   background-repeat:  no-repeat;
+   background-attachment: fixed;
+   background-size:cover;
+
+   transition: all 1s ease;
+   height:100%;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section{
+    min-height: 100vh;
+    max-height:fit-content;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content:space-evenly; 
+}
+
+
+
+.introPart h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.introPart p{
+    font-size: 20px;
+}
+
+
+
+
+/* The about me section */
+.aboutMe {
+    text-align:center;
+    display: inline-block;
+
+}
+
+.aboutMe h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding:100px;
+}
+
+.profile1{
+    width: 300px;;
+    height:400px;
+    object-fit: cover;
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+}
+
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+.column{
+    display: inline-flex;
+    flex-direction: column;
+    width: auto;
+    padding: 50px;
+    
+}
+
+.box {
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+    width:300px;
+    height:400px;;
+    font-family: DejaVu Sans Mono, monospace;
+    background-color:#ebc9ab ;
+}
+
+.box h1{
+    font-size: 17px;
+    padding: 30px;
+    text-align: left;
+}
+.box p{
+    font-size: 15px;
+    padding: 30px;
+    text-align: left;
+}
+
+.box h4{
+    font-size: 15px;
+}
+
+
+
+
+/* The where you can find me section.*/
+.whereToFind {
+    text-align:center;
+
+}
+
+.whereToFind h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+
+.whereToFind img{
+    width:70px;
+    height:70px;
+    padding:20px;
+}
+.wrapper{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icon{
+   
+    border-radius: 45px;
+    width:70px;
+    background: hsl(210, 46%, 78%);
+    box-shadow: 0 10px 10px rgba(0,0,0,1);
+    font-size: 5px;
+    margin: 10px;
+}
+
+.tooltip{
+   font-size:15px;
+   box-shadow: 0 10px 10px rgba(0,0,0,0.1); 
+   border-radius:25px;
+   opacity: 0;
+   pointer-events: none;
+   position: absolute;
+}
+
+.tooltip p{
+    padding: 10px;
+}
+
+.iconHover:hover .tooltip{
+    opacity:1;
+    pointer-events: auto;
+}
+
+
+/* The project section*/
+
+.projects{
+    text-align: center;
+}
+
+
+.projectBox{
+    
+    box-shadow: -30px 30px 20px rgba(0,0,0,0.3);
+    width:300px;
+    height:500px;
+
+    font-family: DejaVu Sans Mono, monospace;
+    background-color:#b48ee6 ;
+    
+}
+
+.projectBox p{
+    font-size: 15px;
+    padding: 20px;
+    text-align: left;
+}
+
+.projectBox a{
+    text-decoration: none;
+    color:#6509de;
+}
+
+.projectBox h4{
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.projectBox img{
+    height:30%;
+    width:70%;
+    object-fit: cover;
+    padding:10px;
+}
+
+
+/* JS classes for bg image to change*/
+.bg-active{
+    background-image:url('pictures/font2.png');
+
+}
+
+.bg-active-second{
+    background-image:url('pictures/font3.png');
+
+}
+
+.bg-active-third{
+    background-image:url("pictures/font4.png");
+}
+
+@media (max-width:500px){
+    body{
+        background-image: none;
+        background-color: #999893;
+    }
+
+    .bg-active{
+        background-image: none;
+        background-color: #bf9e63;
+    
+    }
+    
+    .bg-active-second{
+        background-image: none;
+        background-color: #639dbf;
+    
+    }
+    
+    .bg-active-third{
+        background-image: none;
+        background-color: #8563bf;
+    }
+}
