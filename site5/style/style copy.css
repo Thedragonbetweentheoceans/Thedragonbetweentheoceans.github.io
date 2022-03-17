@@ -1,0 +1,299 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #c6dff5;
+}
+section {
+  height: 100%;
+  width: 100%;
+}
+
+p,
+ul,
+a {
+  font-size: 25px;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 35px;
+}
+.intro {
+  background-image: url("poze/fundal.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  display: inline-flex;
+  background-color: rgba(48, 125, 219, 0.7);
+  flex-wrap: wrap;
+  z-index: 3;
+}
+
+.navbar_after {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  display: inline-flex;
+  background-color: rgba(48, 125, 219, 0.7);
+  flex-wrap: wrap;
+  z-index: 3;
+}
+
+.active {
+  text-decoration: none;
+}
+.text {
+  position: absolute;
+  top: -45%;
+  left: 10%;
+  flex-wrap: wrap;
+}
+.text p {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.items {
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  gap: 5px;
+}
+
+.item a {
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+#home .content {
+  flex-wrap: wrap;
+  position: absolute;
+  top: 105%;
+}
+
+#home .content h1 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#home .content h2 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.img_home {
+  height: 300px;
+  width: 300px;
+}
+
+#home .poz {
+  width: 100%;
+  text-align: center;
+}
+
+#home .adn {
+  display: inline-flex;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#patau,
+#down {
+  height: fit-content;
+}
+#patau .content {
+  flex-wrap: wrap;
+}
+
+#patau .content h1 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#patau .content h3 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+  color: #f25941;
+}
+
+#patau .def {
+  display: inline-flex;
+  margin-right: 10%;
+}
+
+#patau .img {
+  height: 300px;
+  width: 300px;
+}
+
+#patau .continut {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#patau .poz {
+  display: inline-flex;
+}
+
+#patau .poz img {
+  height: 200px;
+  width: 400px;
+}
+
+#patau .continut .poz ul {
+  width: 70%;
+}
+
+#down .content {
+  flex-wrap: wrap;
+}
+
+#down .content h1 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#down .content h3 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+  color: #f25941;
+}
+
+#down .def {
+  display: inline-flex;
+  margin-right: 10%;
+}
+
+#down .img {
+  height: 300px;
+  width: 400px;
+}
+
+#down .continut {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  display: inline-flex;
+  gap: 50px;
+}
+
+#down .continut p {
+  font-size: 20px;
+}
+
+#down .txt {
+  background-image: url("poze/poza7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-radius: 5px;
+}
+
+#down .txt p {
+  background-color: rgba(121, 131, 148, 0.7);
+}
+
+#bibliografie .content {
+  margin-top: 3%;
+  line-height: 200%;
+}
+
+#bibliografie .content h1 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#bibliografie .content a {
+  color: black;
+}
+
+#metode .continut {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-wrap: wrap;
+}
+
+#metode .continut .txt {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+#metode .continut .txt p {
+  width: 50%;
+}
+
+#metode .continut .txt img {
+  width: 400px;
+  height: 300px;
+}
+/* 
+#metode .poz {
+  display: inline-flex;
+  margin-left: 15%;
+  margin-right: 5%;
+  gap: 30px;
+} */
+
+#boli .continut {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-wrap: wrap;
+}
+
+#boli .continut h1 {
+  font-family: "Chivo", sans-serif;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#boli .poz {
+  display: inline-flex;
+  gap: 10px;
+}
+
+#boli .continut img {
+  width: 400px;
+  height: 400px;
+}
+/* Modificarea om functie de ecran */
+@media (max-width: 1000px) {
+  .text {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .item a {
+    font-size: 17px;
+  }
+}

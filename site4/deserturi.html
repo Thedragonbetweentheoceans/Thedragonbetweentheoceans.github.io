@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Deserturi</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Arvo:ital,wght@1,700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+
+
+
+    </head>
+
+    <body id="deserturi">
+        <div class="navbar">
+            <div class="items">
+                <div class="item"><a href="cafea.html">Cafea</a></div>
+                <div class="item active"><a href="deserturi.html">Deserturi</a></div>
+                <div class="item"><a href="retete_italiane.html">Retete italiane</a></div>
+                <div class="item"><a href="curiozitati.html">Curiozități</a></div>
+                <div class="item"><a href="istoric.html">Istoric</a></div>
+                <div class="item"><a href="introducere.html">Introducere</a></div>
+                <div class="item"><a href="index.html">Acasă</a></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <section>
+
+                <div style="width:50%;position: relative; left:5%; display: flex;flex-direction: row; flex-wrap: wrap; gap :20px;">
+                    <div>
+                        <img id="myImg8" class="myImg" src="poze/img7.png" style="width:100%;max-width:300px">
+                        <div id="myModal8" class="modal">
+                            <span id="close8" class="close">&times;</span>
+                            <div class="modal-content">
+                                <h1 style="color: whitesmoke;"><i><u>Tiramisu</u></i></h1>
+
+                                <h2 style="color: whitesmoke;">Reteta de tiramisu</h2>
+                                <iframe   src="https://savoriurbane.com/tiramisu-original-reteta-italiana-autentica/" height="500" width="800"></iframe>
+    
+                                <br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img id="myImg10" class="myImg" src="poze/img8.png" style="width:100%;max-width:300px">
+                        <div id="myModal10" class="modal">
+                            <span id="close10" class="close">&times;</span>
+                            <div class="modal-content">
+                                <h1 style="color: whitesmoke;"><i><u>Inghetata</u></i></h1>
+
+                                <h2 style="color: whitesmoke;">Reteta de inghetata</h2>
+                                <iframe   src="https://www.aflacum.ro/Dulciuri/inghetata-italiana-gelato-21-amp.html" height="500" width="800"></iframe>
+    
+                                <br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img id="myImg9" class="myImg" src="poze/img9.png" style="width:100%;max-width:300px">
+                        <div id="myModal9" class="modal">
+                            <span id="close9" class="close">&times;</span>
+                            <div class="modal-content">
+                                <h1 style="color: whitesmoke;"><i><u>Panna Cotta</u></i></h1>
+
+                                <h2 style="color: whitesmoke;">Reteta de Panna Cotta</h2>
+                                <iframe   src="https://bucatariaioanei.ro/panna-cotta-reteta-originala/" height="500" width="800"></iframe>
+    
+                                <br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img id="myImg11" class="myImg" src="poze/img10.png" style="width:100%;max-width:300px">
+                        <div id="myModal11" class="modal">
+                            <span id="close11" class="close">&times;</span>
+                            <div class="modal-content">
+                                <h1 style="color: whitesmoke;"><i><u>Panettone</u></i></h1>
+
+                                <h2 style="color: whitesmoke;">Reteta de Panettone</h2>
+                                <iframe   src="https://savoriurbane.com/panettone-cozonac-italian/" height="500" width="800"></iframe>
+    
+                                <br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script>
+            var modal8 = document.getElementById("myModal8");
+            var img8 = document.getElementById("myImg8");
+            img8.onclick = function(){
+                modal8.style.display = "block";
+            } 
+            var span8 = document.getElementById("close8");
+            span8.onclick = function() {
+                modal8.style.display = "none";
+            }
+
+            var modal9 = document.getElementById("myModal9");
+            var img9 = document.getElementById("myImg9");
+            img9.onclick = function(){
+                modal9.style.display = "block";
+            } 
+            var span9 = document.getElementById("close9");
+            span9.onclick = function() {
+                modal9.style.display = "none";
+            }
+
+            var modal10 = document.getElementById("myModal10");
+            var img10 = document.getElementById("myImg10");
+            img10.onclick = function(){
+                modal10.style.display = "block";
+            } 
+            var span10 = document.getElementById("close10");
+            span10.onclick = function() {
+                modal10.style.display = "none";
+            }
+
+            var modal11 = document.getElementById("myModal11");
+            var img11 = document.getElementById("myImg11");
+            img11.onclick = function(){
+                modal11.style.display = "block";
+            } 
+            var span11 = document.getElementById("close11");
+            span11.onclick = function() {
+                modal11.style.display = "none";
+            }
+        </script>
+    </body>
+</html>

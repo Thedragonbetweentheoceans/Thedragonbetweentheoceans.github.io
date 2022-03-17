@@ -1,0 +1,362 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+}
+
+#acasa {
+  background-image: url("poze/bigstock-Table-Of-Italian-Meals-On-Plat-368417779-1920w.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#introducere {
+  background-image: url("poze/Italypasta.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#istoric {
+  background-image: url("poze/istockphoto-154948525-612x612.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#curiozitati {
+  background-image: url("poze/x2NZM5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#retete_italiane {
+  background-image: url("poze/pizza-4952509_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#deserturi {
+  background-image: url("poze/ovs5xvki6zx61jl0qdoqy6qumyntyoypjo6fvibzo4l81kh1knpkmtoozixu5nh9-.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#cafea {
+  background-image: url("poze/coffee-background-top-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+  background-color: rgb(38, 38, 38, 0.7);
+  z-index: 1;
+}
+
+.title {
+  position: relative;
+  padding-right: 30px;
+  padding-left: 15px;
+  font-family: "Amatic SC", cursive;
+}
+
+.title h2 {
+  color: #a8a7a7;
+  font-size: 30px;
+}
+.items {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  position: relative;
+}
+
+.item a {
+  font-size: 30px;
+  color: #a8a7a7;
+  text-decoration: none;
+  font-family: "Amatic SC", cursive;
+}
+
+.item {
+  padding: 15px;
+  height: 50px;
+}
+
+.active a {
+  color: #af8d57;
+  font-family: "Amatic SC", cursive;
+}
+
+.imagini {
+  position: relative;
+  left: 60%;
+  width: fit-content;
+}
+
+.content {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.content p,
+li {
+  padding: 15px;
+  color: black;
+  line-height: 120%;
+  letter-spacing: 120%;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  font-family: "Arvo", serif;
+  font-family: "Source Serif Pro", serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Amatic SC", cursive;
+  font-family: "Arvo", serif;
+  font-family: "Source Serif Pro", serif;
+}
+
+.box {
+  position: relative;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  text-align: left;
+  background-color: rgb(134, 135, 134, 0.3);
+  border-radius: 5px;
+}
+
+#acasa h1 {
+  position: relative;
+  left: 45%;
+  width: fit-content;
+}
+
+#curiozitati .box {
+  left: 40%;
+  width: 50%;
+  background-color: rgb(134, 135, 134, 0.5);
+}
+
+#curiozitati p,
+li {
+  color: #050505;
+}
+
+#retete_italiane h1 {
+  text-align: left;
+}
+
+#retete_italiane .box {
+  left: 5%;
+  width: 50%;
+  background-color: rgb(134, 135, 134, 0);
+}
+#retete_italiane h1 {
+  position: relative;
+  left: 5%;
+  width: fit-content;
+}
+#retete_italiane p,
+li,
+h2,
+a {
+  color: #cacccf;
+}
+
+#retete_italiane h1 {
+  color: #cacccf;
+  font-size: 30px;
+}
+
+#deserturi .box {
+  left: 5%;
+  width: 50%;
+  background-color: rgb(134, 135, 134, 0);
+}
+#deserturi h1 {
+  position: relative;
+  left: 15%;
+  width: fit-content;
+}
+#deserturi li {
+  color: black;
+}
+
+#deserturi .content a {
+  color: black;
+}
+
+#deserturi h2 {
+  color: black;
+}
+
+#cafea .box {
+  left: 30%;
+  width: 50%;
+  background-color: rgb(134, 135, 134, 0);
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 40%;
+}
+
+.modal-content {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.imagine p {
+  width: 100%;
+  max-width: 300px;
+  font-size: 15px;
+  margin-top: 0%;
+  padding: 1px;
+}
+
+.introducere {
+  position: relative;
+  text-align: center;
+  right: 0%;
+}
+
+.slogan {
+  background-color: rgb(207, 204, 204, 0.7);
+  text-align: center;
+}
+
+.slogan h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 100px;
+}
+.titlu {
+  background-color: rgb(207, 204, 204, 0.7);
+  text-align: center;
+}
+
+.titlu h2 {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  color: #050505;
+}
+
+#introducere .box {
+  position: relative;
+  left: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  text-align: left;
+  background-color: rgb(134, 135, 134, 0.3);
+  border-radius: 5px;
+}
+
+#introducere p {
+  color: white;
+}
+
+#istoric .box {
+  position: relative;
+  left: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  text-align: left;
+  background-color: rgba(236, 156, 51, 0.7);
+  border-radius: 5px;
+}
