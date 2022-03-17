@@ -1,0 +1,136 @@
+
+* {
+	margin: 0;
+	padding: 5px;
+}
+
+body{
+    background-image: url("photos/fundal2.jpg");
+
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.box{
+    max-width: 400px;
+    line-height: 150%;
+    padding: 5px;
+    z-index: 3;
+
+}
+
+.box p{
+    padding:5px;
+}
+
+.bag{
+    display: inline-flex;
+    border:2px solid black;
+    position: absolute;
+    z-index: 3;
+    background-color: #008a00;    
+    border-radius: 5px;
+    box-shadow: -20px 20px 20px #261e20;
+}
+
+.img{
+
+    z-index: 3;
+
+}
+
+.img img{
+    height:300px;
+    width:300px;
+    padding: 5px;
+    
+}
+
+.two, .four, .six, .eight{
+    right:2%;
+}
+
+.one{
+    top:10%;
+}
+
+.two{
+    top:50%;
+}
+
+.three{
+    top:80%;
+}
+
+.four{
+    top:120%;
+}
+
+.five{
+    top:150%;
+}
+
+.six{
+    top:190%;
+}
+
+.seven{
+    top:230%;
+}
+
+.eight{
+    top:260%;
+}
+
+.line{
+    position:absolute
+}
+
+#unu{
+    top:30%;
+    border-top: 6px solid #008a00;
+    width: 71%;
+}
+
+#doi{
+    border-left: 6px solid #008a00;
+    top:30%;
+    left:72%;
+    height:100%;
+}
+
+#trei{
+    top:70%;
+    border-top: 6px solid #008a00;
+    width: 80%;
+    right:0%;
+}
+
+#patru{
+    top:70%;
+    border-left: 6px solid #008a00;
+    height:100%;
+    left:19.5%;
+}
+
+#cinci{
+    left:19.5%;
+    top:175%;
+    border-top: 6px solid #008a00;
+    width: 80%;
+}
+
+#sase{
+    top:130%;
+    right:20%;
+    border-left: 6px solid #008a00;
+    height:150%;
+}
+
+#sapte{
+    top:245%;
+    right:20.5%;
+    width:100%;
+    border-top: 6px solid #008a00;
+}

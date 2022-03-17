@@ -1,0 +1,16 @@
+- De la byte la terrabyte.O scurtă istorie a calculatorului.
+
+- Care sunt componentele unui calculator?
+
+- Cum functioneaza un calculator?
+
+- Cum ne protejam calculatorul?
+
+Link-uri:
+- https://www.cs.odu.edu/~tkennedy/cs300/development/Public/M01-HistoryOfComputers/index.html
+
+-https://calculatorescu.ro/care-sunt-componentele-calculatorului/
+
+-https://www.descopera.org/cum-functioneaza-calculatorul/
+
+-https://www.wowhost.ro/clienti/knowledgebase/387/Cum-protejam-calculatorul-de-virusi-sau-acces-neautorizat-Cum-ne-protejam-datele-personale.html

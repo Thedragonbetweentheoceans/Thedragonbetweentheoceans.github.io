@@ -1,0 +1,46 @@
+Placa de bază este componenta calculatorului care se asigură că toate celelalte sunt conectate între ele și lucrează împreună pentru a îndeplini sarcinile pe care le transmite utilizatorul. Așadar, pe placa de bază se regăsesc sloturile unde sunt montate modulele RAM, mediile de stocare, placa video, procesorul, cooler-ul procesorului, placa video și alte elemente ale PC-ului. De asemenea, tot placa de bază are porturile necesare pentru a conecta perifericele la calculator.
+
+Important de știut este faptul că majoritatea plăcilor de bază pot ține loc altor componente precum a plăcilor de rețea, de sunet și video. De fapt, primele două au ajuns să fie înlocuite de placa de bază și sunt foarte rar cumpărate.
+
+În ceea ce privește placa video, poți vedea filme Full HD prin intermediul celei integrate. Cu toate astea, dacă vrei să faci editare foto/video sau să joci PUBG sau alte jocuri, vei avea nevoie de o placă video dedicată.
+
+
+Adesea, procesorului i se mai spune și creierul calculatorului deoarece este una dintre cele mai scumpe componente, dar este și cea mai importantă. El stabilește modul în care un calculator efectuează operațiile și le transmite către celelalte componente.
+
+Principalii producători de procesoare sunt Intel și AMD. Ca performanță, de obicei cu cât este mai mare frecvența de lucru, cu atât procesorul este mai bun. Frecvența de lucru este măsurată în GHz, dar mai contează și generația din care face parte procesorul. Vom vorbi despre toate acestea într-un eventual ghid despre cum alegi procesorul unui calculator.
+
+
+Ventilatorul care se pune peste procesor este însărcinat cu menținerea unei temperaturi optime pentru ca acesta să lucreze la capacitate maximă și să nu se ardă. Cooler-ul este în contact direct cu procesorul și între acestea două se află pasta termoconductoare pentru a elimina orice gol de aer și a asigura un transfer termic cât mai bun.
+
+
+Memoria RAM este locul pe unde datele trec pentru a fi prelucrate de către celelalte componente ale unui calculator. Așadar, nu doar capacitatea de stocare contează, ci și viteza de lucru și de răspuns.
+
+Așa cum am vorbit și în alt articol despre memoria RAM, pentru ca aceasta să fie considerată performantă trebuie să aibă o capacitate de stocare cât mai mare, frecvență cât mai mare și latență cât mai mică. Aceste trei lucruri menționate mai sus se traduc prin capacitate de stocare a mai multor informații, capacitate de prelucrare rapidă și timp de accesare cât mai rapid.
+
+Modulele RAM sunt alese sau înlocuite în funcție de compatibilitatea acestora cu sloturile de pe placa de bază și de frecvența maximă la care placa de bază și procesorul le permite să opereze.
+
+
+Sursa de alimentare este punctul din care energia electrică pleacă spre toate componentele din sistemul central al calculatorului.
+
+Aceasta are puterea măsurată în W și mai are rolul de a transforma curentul de la 220V la valorile de care au nevoie componentele calculatorului pentru a funcționa corespunzător. De obicei 5V și 12V.
+
+În procesul de construire al unui calculator, recomandat este ca aceasta să fie alesă la final deoarece trebuie să fie îndeajuns de puternică să alimenteze toate componentele unui calculator. Spre exemplu, o sursă de 300W poate alimenta un PC fără probleme dacă acesta nu are o placă video dedicată care să aibă nevoie de foarte mult curent.
+
+HDD-urile, numite hard disk-uri, sunt cele mai întâlnite dispozitive de stocare a informațiilor în interiorul unui calculator. Așa cum le zice și numele, sunt folosite pentru a stoca informații precum documente, melodii, filme, etc.
+
+De asemenea, și sistemul de operare al unui calculator este stocat pe un astfel de dispozitiv, dar odată cu apariția SSD-urilor specialiștii recomandă instalarea lui pe un SSD deoarece crește performanța calculatorului.
+
+Diferența dintre un HDD și un SSD este simplă, cel de-al doilea nu are piese care să se afle în mișcare, fapt ce rezultă într-o viteză de accesare mult mai mare și o rezistență la șocuri mult mai bună. Singurul minus este că durata lui de viață se măsoară în scrieri și ștergeri ale informațiilor de pe el.
+
+
+
+Placa video, adesea numită și placă grafică, este responsabilă de transmiterea imaginilor către monitor. Așadar, fără o placă video nu vei putea vedea nimic pe ecranul calculatorului tău.
+
+Partea bună este că dacă nu vrei să faci editare foto/video, să rulezi jocuri care consumă resurse sau să redai clipuri 4K, majoritatea plăcilor de bază vin și cu o placă video integrată care se va descurca fără probleme pentru sarcini precum Microsoft Office, YouTube și alte acțiuni elementare.
+
+
+Așa cum ziceam și pe la începutul articolului, calculatorul are și o serie de componente periferice despre care voi vorbi în articole separate. Important de reținut este că cele mai folosite trei componente periferice sunt tastatura, mouseul și monitorul, iar restul sunt acolo pur și simplu pentru confortul utilizatorului.
+
+Când spun restul mă refer la orice componente care poate fi conectate la un calculator precum: căști, boxe, încărcătoare wireless, controlere de PS4, Xbox, etc.
+
+Așadar, aceasta sunt componentele unui calculator de care acesta are nevoie să funcționeze. Cu cât acestea sunt mai performante cu atât valoarea calculatorului crește și acesta poate realiza sarcini mai complexe.
