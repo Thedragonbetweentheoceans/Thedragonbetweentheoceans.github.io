@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Peisaje
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="../index.html">Acasă</a>
+            <button class="dropdown-btn">Geografie
+                <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-container">
+                <a href="asezare.html">Așezare</a>
+                <a href="geologie.html">Geologie</a>
+                <a href="clima.html">Climă</a>
+                <a href="peisaje.html">Peisaje(galerie foto)</a>
+             </div>
+             <button class="dropdown-btn">Istorie
+                <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-container">
+                <a href="../istorie/antichitate.html">Antichitate</a>
+                <a href="../istorie/evmediu.html">Evul Mediu</a>
+                <a href="../istorie/renastere.html">Renașterea</a>
+                <a href="../istorie/razbmondiale.html">Cele două razboaie mondiale</a>
+             </div>
+            <button class="dropdown-btn">Cultură
+               <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+               <a href="../cultura/traditii.html">Tradiții</a>
+               <a href="../cultura/gastronomie.html">Gastronomie</a>
+               <a href="../cultura/muzica.html">Muzică</a>
+            </div>
+            <button class="dropdown-btn">Economie
+                <i class="fa fa-caret-down"></i>
+             </button>
+             <div class="dropdown-container">
+                <a href="../economie/agricultura.html">Agricultură</a>
+                <a href="../economie/comert.html">Comerț</a>
+                <a href="../economie/turism.html">Turism</a>
+                <a href="../economie/cercetare.html">Cercetare</a>
+                <a href="../economie/energie.html">Energie</a>
+             </div>
+          </div>
+          
+        <div id="content">
+            <button class="openbtn" onclick="openNav()">&#9776; Meniu</button>
+            <div class="main">
+                <h1><u>Peisaje-galerie foto</u></h1>
+                <div class="box">
+                    <p>&nbsp;&nbsp;&nbsp;Franța metropolitană beneficiază de o largă varietate de peisaje: câmpii agricole sau împădurite, lanțuri montane mai mult sau mai puțin erodate, litoraluri diversificate și văi, în care orașele se amestecate cu spații neo-naturale. Franța de peste mări conține și ea o importantă biodiversitate (de exemplu, pădurile ecuatoriale franco-guyaneze sau lagunele Noii Caledonii). Franța este una dintre cele mai împădurite țări din Europa Occidentală, pădurile ocupând 28% din suprafața țării</p>
+                </div>
+                    <div style="display: flex;flex-direction: row;flex-wrap: wrap; gap:10px;">
+        
+        
+                            <div>
+                                <img id="myImg1" src="../poze/montblanc2.jpg" alt="Masivul alpin Mont Blanc" style="width:100%;max-width:300px" class="myImg">
+                                <div id="myModal1" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img01">
+                                    <div id="caption1" class="caption"></div>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <img id="myImg2" src="../poze/usson.jpg" alt="Satul Usson, aflat pe pantele unui con vulcanic stins din Masivul Central." style="width:100%;max-width:300px" class="myImg">
+                                <div id="myModal2" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img02">
+                                    <div id="caption2" class="caption"></div>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <img id="myImg3" src="../poze/pointeduvan.jpg" alt="Pointe du Van⁠, extremitatea vestică a Bretaniei." style="width:100%;max-width:300px" class="myImg">
+                                <div id="myModal3" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img03">
+                                    <div id="caption3" class="caption"></div>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <img id="myImg4" src="../poze/sologne.jpeg" alt="Iazurile și pădurile din Sologne⁠" style="width:100%;max-width:300px" class="myImg">
+                                <div id="myModal4" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img04">
+                                    <div id="caption4" class="caption"></div>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <img id="myImg5" src="../poze/stmichel.jpg" alt="Golful Mont Saint-Michel din Normandia." style="width:100%;max-width:300px" class="myImg">
+                                <div id="myModal5" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img05">
+                                    <div id="caption5" class="caption"></div>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <img id="myImg6" src="../poze/sainteanne.jpeg" alt="Plaja Sainte-Anne, în Guadelupa." style="width:100%;max-width:300px" class="myImg">
+                                <div id="myModal6" class="modal">
+                                    <span class="close">&times;</span>
+                                    <img class="modal-content" id="img06">
+                                    <div id="caption6" class="caption"></div>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../app.js"></script>
+    </body>
+</html>
